@@ -1,6 +1,6 @@
 # Dual Residual-Guided Interactive Learning for the Quality Assessment of Enhanced Images
 
-**by [Shishun Tian](https://scholar.google.com.hk/citations?user=gk8puWMAAAAJ&hl=zh-CN), [Tiantian Zeng](https://scholar.google.com.hk/citations?user=gemAtrkAAAAJ&hl=zh-CN), [Zhengyu Zhang](https://scholar.google.com.hk/citations?user=WZYvDkAAAAAJ&hl=zh-CN), [Wenbin Zou](https://scholar.google.com.hk/citations?user=J8-OQCIAAAAJ&hl=zh-CN), Xia Li**
+**by [Shishun Tian](https://scholar.google.com.hk/citations?user=gk8puWMAAAAJ&hl=zh-CN), [Tiantian Zeng](https://scholar.google.com.hk/citations?user=gemAtrkAAAAJ&hl=zh-CN), [Zhengyu Zhang](https://scholar.google.com.hk/citations?user=WZYvDkAAAAAJ&hl=zh-CN), [Wenbin Zou](https://scholar.google.com.hk/citations?user=J8-OQCIAAAAJ&hl=zh-CN), and Xia Li**
 
 **[[TMM2025 Paper]](https://ieeexplore.ieee.org/abstract/document/10857451)**
 
@@ -12,8 +12,12 @@ _Image enhancement algorithms can facilitate computer vision tasks in real appli
 ## Network architecture
 ![DRGQA_frame](resources/DRGQA_frame.png)
 
-## Comparison with SOTA 
+## Comparison with SOTA metrics
+
+Performance evaluation on six dehazed IQA databases:
 ![Evaluation_dehazed](resources/Evaluation_dehazed.png)
+
+Performance evaluation on underwater and low-light IQA databases:
 ![Evaluation_underwater_lowlight](resources/Evaluation_underwater_lowlight.png)
 
 ## Environment Setup
@@ -39,6 +43,8 @@ python
 ```
 
 ## Citation
+
+If you find DRGQA useful in your research, please consider citing:
 
 ```
 @Article{10857451,
