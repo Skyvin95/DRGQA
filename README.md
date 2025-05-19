@@ -8,7 +8,8 @@
 ![DRGQA_frame](resources/DRGQA_frame.png)
 
 ## Comparison with SOTA 
-
+![Evaluation_dehazed](resources/Evaluation_dehazed.png)
+![Evaluation_underwater_lowlight](resources/Evaluation_underwater_lowlight.png)
 
 ## Environment Setup
 
@@ -26,6 +27,11 @@ pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable
 ```
 
 All experiments were executed on an NVIDIA GeForce RTX 3090.
+
+## Training
+```shell
+python
+```
 
 ## Citation
 
