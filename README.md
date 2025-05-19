@@ -8,13 +8,13 @@
 
 For this project, we used python 3.8.5. We recommend setting up a new virtual environment:
 
-'''shell
+```shell
 python -m venv ~/venv/drgqa
 source ~/venv/drgqa/bin/activate
-'''
+```
 
 In that environment, the requirements can be installed with:
 
-'''shell
+```shell
 
-'''
+```
