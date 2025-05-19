@@ -52,3 +52,11 @@ python
   keywords={Distortion;Image color analysis;Image quality;Image enhancement;Quality assessment;Image restoration;Transformers;Visualization;Indexes;Feature extraction;Degraded reference;image quality assessment;enhanced image;dual residual-guided;interactive learning},
   doi={10.1109/TMM.2024.3521734}}
 ```
+
+## Acknowledgements
+
+DRGQA is based on the following open-source projects. We thank their authors for making the source code publicly available.
+
+* [Conformer](github.com/pengzhiliang/Conformer)
+* [VCRNet](https://github.com/NUIST-Videocoding/VCRNet)
+
