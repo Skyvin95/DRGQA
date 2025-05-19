@@ -5,7 +5,7 @@
 **[[TMM2025 Paper]](https://ieeexplore.ieee.org/abstract/document/10857451)**
 
 ## Network architecture
-!
+![DRGQA_frame](resources/DRGQA_frame.png)
 
 ## Comparison with SOTA 
 
