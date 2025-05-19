@@ -32,7 +32,7 @@ source ~/venv/drgqa/bin/activate
 In that environment, the requirements can be installed with:
 
 ```shell
-pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
+pip install -r requirements.txt
 ```
 
 All experiments were executed on an NVIDIA GeForce RTX 3090.
@@ -61,7 +61,7 @@ If you find DRGQA useful in your research, please consider citing:
 
 ## Acknowledgements
 
-DRGQA is based on the following open-source projects. We thank their authors for making the source code publicly available.
+DRGQA is based on the following open-source projects. We thank the authors for making the source code publicly available.
 
 * [Conformer](github.com/pengzhiliang/Conformer)
 * [VCRNet](https://github.com/NUIST-Videocoding/VCRNet)
