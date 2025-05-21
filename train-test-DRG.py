@@ -44,7 +44,7 @@ logging.basicConfig(
 
 model_name = 'DRGQA_checkpoint.pkl'
 
-net = Conformer()
+net = DRGQA()
 net.to(device)
 
 if os.path.exists(model_name):
