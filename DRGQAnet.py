@@ -303,8 +303,8 @@ class DRGQA(nn.Module):
         self.down_block_color = Downsample(in_dim=64, out_dim=embed_dim, dw_stride=8)
 
         # 1 stage
-        stage_1_channel = base_channel   # 64
-        trans_dw_stride = patch_size // 4      # 4
+        stage_1_channel = base_channel
+        trans_dw_stride = patch_size // 4
         self.conv_1 = CNN_block(in_dim=64, out_dim=stage_1_channel)
         self.trans_patch_conv = nn.Conv2d(64, embed_dim, kernel_size=trans_dw_stride, stride=trans_dw_stride, padding=0)
 
