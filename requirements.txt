@@ -1,5 +1,4 @@
 os
-cv2
 PIL
 timm
 torch
@@ -11,4 +10,5 @@ functools
 matplotlib
 torchvision
 tensorboardX
+opencv-python
 antialiased_cnns
