@@ -20,7 +20,7 @@ Performance evaluation on six dehazed IQA databases:
 Performance evaluation on underwater and low-light IQA databases:
 ![Evaluation_underwater_lowlight](resources/Evaluation_underwater_lowlight.png)
 
-## Environment Setup
+## Setup Environment
 
 For this project, we used python 3.8. We recommend setting up a new virtual environment:
 
